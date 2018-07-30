@@ -1,0 +1,371 @@
+{
+    "VlocityDataPackIds": {
+        "a277F000000JLp2QAG": "Complete"
+    },
+    "activate": true,
+    "addSourceKeys": false,
+    "addedToExportBuildFile": [
+    ],
+    "allDataSummary": {
+        "fabb0346433881a2515d85716b509634": {
+            "VlocityDataPackDisplayLabel": "DataRaptor Migration",
+            "VlocityDataPackType": "DataRaptor"
+        }
+    },
+    "allParents": [
+        "DataRaptor/DataRaptor Migration"
+    ],
+    "alreadyErroredIdsByType": {
+        "DataRaptor": [
+        ]
+    },
+    "alreadyExportedIdsByType": {
+        "DataRaptor": [
+            "a0K7F000005z6hzUAA",
+            "a0K7F000005z6hz",
+            "DataRaptor Migration"
+        ]
+    },
+    "alreadyExportedKeys": [
+        "fabb0346433881a2515d85716b509634"
+    ],
+    "alreadyRetriedIdsByType": {
+    },
+    "buildFile": "AllDataPacks.json",
+    "compileOnBuild": true,
+    "continueAfterError": true,
+    "currentErrors": {
+    },
+    "currentStatus": {
+        "fabb0346433881a2515d85716b509634": "Success"
+    },
+    "dataPackDisplayLabels": {
+    },
+    "dataPackKeyToPrimarySourceKey": {
+    },
+    "defaultMaxParallel": 10,
+    "delete": true,
+    "diffStatus": {
+    },
+    "errors": [
+    ],
+    "expansionPath": ".",
+    "exportPacksMaxSize": 10,
+    "exportRemaining": 0,
+    "fullManifest": {
+        "DataRaptor": {
+            "a0K7F000005z6hzUAA": {
+                "Id": "a0K7F000005z6hzUAA",
+                "VlocityDataPackDisplayLabel": "a0K7F000005z6hzUAA",
+                "VlocityDataPackType": "DataRaptor",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__DRBundle__c"
+            }
+        }
+    },
+    "generatedKeysToNames": {
+    },
+    "ignoreAllErrors": false,
+    "initialized": true,
+    "job": "yaml_file/testExport.yaml",
+    "jobAction": "Export",
+    "jobName": "yaml_file/testExport.yaml",
+    "keysToDirectories": {
+    },
+    "logName": "yaml_file/testExport-yaml-2018-07-26T08-48-56-966Z-Export.yaml",
+    "manifestFound": {
+    },
+    "manifestOnly": false,
+    "maxDepth": -1,
+    "maximumDeployCount": 1000,
+    "originalAction": "Export",
+    "pendingFromManifest": {
+    },
+    "postDeployResults": [
+    ],
+    "postStepApex": {
+        "Deploy": {
+            "Product2": "EPCProductJSONUpdate.cls"
+        }
+    },
+    "preDeployDataSummary": [
+    ],
+    "preStepApex": {
+        "Deploy": {
+            "VlocityUILayout": "DeactivateTemplatesAndLayouts.cls",
+            "VlocityUITemplate": "DeactivateTemplatesAndLayouts.cls"
+        }
+    },
+    "projectPath": "./Result",
+    "propertyfile": "source.properties",
+    "queries": [
+        {
+            "VlocityDataPackType": "DataRaptor",
+            "query": "Select Id from %vlocity_namespace%__DRBundle__c where Name = 'DataRaptor Migration' LIMIT 1"
+        }
+    ],
+    "records": [
+        {
+            "VlocityDataPackDisplayLabel": "DataRaptor Migration",
+            "VlocityDataPackKey": "DataRaptor/DataRaptor Migration",
+            "VlocityDataPackStatus": "Success",
+            "VlocityDataPackType": "DataRaptor"
+        }
+    ],
+    "refreshVlocityBase": [
+    ],
+    "report": [
+    ],
+    "sourceKeyToRecordId": {
+    },
+    "sourceKeysByParent": {
+        "%vlocity_namespace%__DRBundle__c/DataRaptor Migration": [
+            "fabb0346433881a2515d85716b509634"
+        ],
+        "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration": [
+            "fabb0346433881a2515d85716b509634"
+        ]
+    },
+    "specificManifestObjects": null,
+    "startTime": 1532594936966,
+    "strict": false,
+    "supportForceDeploy": true,
+    "supportHeadersOnly": true,
+    "supportParallel": true,
+    "toExportGroups": [
+        [
+            {
+                "Id": "a0K7F000005z6hzUAA",
+                "VlocityDataPackDisplayLabel": "a0K7F000005z6hzUAA",
+                "VlocityDataPackType": "DataRaptor",
+                "VlocityRecordSObjectType": "%vlocity_namespace%__DRBundle__c"
+            }
+        ]
+    ],
+    "useAllRelationships": false,
+    "vlocityKeysToNewNamesMap": {
+        "DataRaptor/DataRaptor Migration": "DataRaptor/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0K7F000005z6hzUAA": "%vlocity_namespace%__DRBundle__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbJUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbKUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbLUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbMUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbNUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbOUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbPUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbQUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbRUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbSUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbTUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbUUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbVUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbWUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbXUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbYUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbZUAS": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbaUAC": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "VlocityRecordSourceKey:a0L7F000008YzbbUAC": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+        "fabb0346433881a2515d85716b509634": "DataRaptor/DataRaptor Migration"
+    },
+    "vlocityRecordSourceKeyMap": {
+        "VlocityRecordSourceKey:a0K7F000005z6hzUAA": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRBundle__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0K7F000005z6hzUAA"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbJUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbJUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbKUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbKUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbLUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbLUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbMUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbMUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbNUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbNUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbOUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbOUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbPUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbPUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbQUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbQUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbRUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbRUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbSUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbSUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbTUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbTUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbUUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbUUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbVUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbVUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbWUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbWUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbXUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbXUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbYUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbYUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbZUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbZUAS"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbaUAC": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbaUAC"
+        },
+        "VlocityRecordSourceKey:a0L7F000008YzbbUAC": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbbUAC"
+        },
+        "a0K7F000005z6hzUAA": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRBundle__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0K7F000005z6hzUAA"
+        },
+        "a0L7F000008YzbJUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbJUAS"
+        },
+        "a0L7F000008YzbKUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbKUAS"
+        },
+        "a0L7F000008YzbLUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbLUAS"
+        },
+        "a0L7F000008YzbMUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbMUAS"
+        },
+        "a0L7F000008YzbNUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbNUAS"
+        },
+        "a0L7F000008YzbOUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbOUAS"
+        },
+        "a0L7F000008YzbPUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbPUAS"
+        },
+        "a0L7F000008YzbQUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbQUAS"
+        },
+        "a0L7F000008YzbRUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbRUAS"
+        },
+        "a0L7F000008YzbSUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbSUAS"
+        },
+        "a0L7F000008YzbTUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbTUAS"
+        },
+        "a0L7F000008YzbUUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbUUAS"
+        },
+        "a0L7F000008YzbVUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbVUAS"
+        },
+        "a0L7F000008YzbWUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbWUAS"
+        },
+        "a0L7F000008YzbXUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbXUAS"
+        },
+        "a0L7F000008YzbYUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbYUAS"
+        },
+        "a0L7F000008YzbZUAS": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbZUAS"
+        },
+        "a0L7F000008YzbaUAC": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbaUAC"
+        },
+        "a0L7F000008YzbbUAC": {
+            "Name": "DataRaptor Migration",
+            "VlocityRecordSourceKeyNew": "%vlocity_namespace%__DRMapItem__c/DataRaptor Migration",
+            "VlocityRecordSourceKeyOriginal": "VlocityRecordSourceKey:a0L7F000008YzbbUAC"
+        }
+    }
+}

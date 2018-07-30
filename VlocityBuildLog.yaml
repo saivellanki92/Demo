@@ -1,0 +1,16 @@
+Org: student3954@cme.edu
+Version: 1.5.6
+PackageVersion: '900.125'
+Namespace: vlocity_cmt
+Job: yaml_file/testExport.yaml
+Action: Export
+ProjectPath: ./Result
+TotalTime: 0m 8s
+Count:
+  Success:
+    DataRaptor: 1
+Errors: []
+Status:
+  Success:
+    DataRaptor:
+      - DataRaptor Migration
